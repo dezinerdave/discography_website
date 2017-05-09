@@ -1,0 +1,63 @@
+<!--
+Developer: David Johnson
+Project 2: Discography Website
+Table of Contents:
+Color Palette:
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="_css/disco.css">
+<title>LIFESIGNS: Home</title>
+</head>
+<body>
+<nav>
+      <ul>
+        <li class="home"><a href="home.html">HOME</a></li>
+        <li class="lifesigns"><a href="lifesigns.html">LIFESIGNS</a></li>
+        <li class="live"><a href="under.html">LIVE IN LONDON</a></li>
+        <li class="cardington"><a href="cardington.html">CARDINGTON</a></li>
+        <li class="#"><a href="signup.html">SIGNUP</a></li>
+      </ul>
+</nav>
+<img src="_images/the_band_1040x691.jpg" alt="Lifesigns onstage at Under the Bridge in London" style="width=1040px;height=691px">
+<div class="main">
+<h1>Lifesigns</h1>
+<div id="join">
+       <form id="signup" method="post" action="#">
+        <h4><em>From left to right: Steve Rispin, John Young, Niko Tsonev, Jon Poole and Frosty Beadle.</em><br><br><strong>Sign up to be kept up-to-date on live appearances, new releases and more!</strong></h4><br>
+        <input id="cat-1" type="text" name="name"><label for="cat-1"><i>Name</i></label>
+			<br>
+			<input id="cat-2" type="text" name="address"><label for="cat-2">Address</label>
+			<br>
+			<input id="cat-3" type="text" name="city, state"><label for="cat-3">City, State, Zip</label>
+			<br><br>
+			<fieldset>
+				<legend>Delivery Format</legend>
+				<input id="format-t" type="radio" name="format"><label for="format-t"> Plain Text </label>
+				<input id="format-h" type="radio" name="format"><label for="format-h"> HTML (Images)</label><br><br>
+				<h4>Preference</h4>
+				<select id="frequency">
+					<option value="daily">Daily</option>
+					<option value="weekly">Weekly</option>
+					<option value="monthly">Monthly</option>
+				</select>
+				<br>
+        <h4>Comments</h4>
+            <textarea id="requests" rows="3" placeholder="Please enter your comments here."></textarea>
+			</fieldset>
+			<h4>Email</h4>
+			<input id="email" type="text" placeholder="Enter your email address">
+			<br><br>
+			<input type="submit" value="Sign me up!">
+		</form>
+    </div>
+<div class="footer">&copy; 2017 FRANCIS TUTTLE TECHNOLOGY CENTER | WEBMASTER: DAVID JOHNSON</div>
+</div>
+</body> 
+</html>

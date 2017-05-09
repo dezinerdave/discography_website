@@ -1,0 +1,288 @@
+/* Developer: David Johnson
+Table of Contents:
+Home Page
+Lifesigns Page
+Live Page
+Cardington Page
+Form
+Color Palette:
+#000000 - BLACK
+#C0C0C0 - SILVER
+#FFFFFF - WHITE
+#333399 - BLUE
+#FF66FF - MAGENTA
+ */
+/* Font Import */
+@import url('https://fonts.googleapis.com/css?family=Source Sans Pro');
+/* Begin Reset | http://meyerweb.com/eric/tools/css/reset/v2.0 | 20110126  License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5em;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End Reset */
+html {
+    background-color: #000;
+    height: auto;
+}
+body {
+    background-color: #fff;
+    border: 6px solid #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: auto;
+    margin: 5%;
+    width: auto;
+}
+em {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+}
+strong {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+nav{
+    position: fixed;
+    width: 89.01%;
+}
+nav ul {
+    background-color: #333399;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav li {
+    border-bottom: 1px solid #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.25em;
+    height: 40px;
+    line-height: 40px;
+}
+nav a {
+    background-color: #333399;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    transition: .3s;
+    width: auto;
+}
+nav a:hover {
+    background-color: #C0C0C0;
+}
+nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+img {
+    clear: both;
+    width: 100%;
+    height: auto;
+    margin-top: 205px;
+}
+h1 {
+    color: #fff;
+    font-size: 110%;
+    letter-spacing: .1em;
+    margin-top: -120px;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+}
+h2 {
+    color: #FF66FF;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+    margin-top: 4em;
+    padding: 2px;
+    text-align: justify;
+}
+h3 {
+    float: right;
+    text-align: center;
+    width: 100%
+}
+p {
+    color: #333399;
+    font-size: 1.20em;
+    letter-spacing: .03em;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+    margin-top: 2.5em;
+    padding: 2px;
+    text-align: justify;
+}
+/* LIFESIGNS ALBUM PAGE */
+.covers {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.covers img {
+    border: 1px solid #000;
+    display: inline-block;
+    margin-top: 1.75em;
+    max-width: 19.5%;
+}
+/* LIVE IN LONDON - UNDER THE BRIDGE ALBUM PAGE */
+ul {
+    color: #333399;
+    font-size: 1.20em;
+    letter-spacing: .03em;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+    margin-top: 2.5em;
+    padding: 2px;
+    text-align: left;
+}
+/* CARDINGTON ALBUM PAGE */
+/* SIGNUP PAGE */
+#signup {
+    background-color: #fff;
+    clear: both;
+    color: #333399;
+    display: block;
+    margin-top: 50px;
+    padding: 16px;
+    position: relative;
+    text-align: left;
+    width: auto;
+}
+#signup .field {
+    width: auto;
+}
+#cat-1 {
+    height: auto;
+    padding: 10px;
+    width: 98%;
+}
+#cat-2 {
+    height: auto;
+    padding: 10px;
+    width: 98%;
+}
+#cat-3 {
+    height: auto;
+    padding: 10px;
+    width: 98%;
+}
+#signup #requests {
+    width: 100%;
+}
+#signup #email {
+    height: 3em;
+    width: 100%;
+}
+form#signup input[type=submit] {
+    font-size: .9em;
+    color: #fff;
+    border: none;
+    background-color: #333399;
+    margin: 10px 0px 5px 0px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+form#signup input[type=submit]:hover {
+    color: #FF66FF;
+}
+/* FOOTER FOR ALL PAGES */
+.footer {
+    background: #000;
+    color: #FFF;
+    font-size: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+}
+/* --------- POWERBOOK -----------*/
+@media screen and (min-width: 1491px) {
+h1 {
+    font-size: 16em;
+    margin-top: -102px;
+}
+}
+/* --------- iPAD -----------*/
+@media screen and (min-width: 704px) and (max-width: 1491px) {
+.covers img {
+    max-width: 19%;
+
+    }
+h1 {
+    font-size: 7em;
+    margin-top: -55px;
+}
+}
+/* --------- iPHONE -----------*/
+@media screen and (min-width: 310px) and (max-width: 703px) {
+.covers img {
+    display: block;
+    max-width: 100%;
+}
+nav{
+    position: fixed;
+    width: 87%;
+}
+h1 {
+    font-size: 3.5em;
+    margin-top: -37.6px;
+}
+h2 {
+    color: #FF66FF;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+    margin-top: 2.5em;
+    padding: 2px;
+    text-align: center;
+}
+ul {
+    text-align: center;
+    }
+p {
+    text-align: center;
+}
+}
